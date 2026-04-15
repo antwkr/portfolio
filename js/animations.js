@@ -31,14 +31,14 @@
       }
     });
 
-       gsap.from(".w45", {
+       gsap.from(".two-column", {
       y: 50,
       opacity: 0,
       duration: 1,
       ease: "power20.out",
       
       scrollTrigger: {
-        trigger: ".w45",
+        trigger: ".two-column",
         start: "top 80%",
       }
     });
